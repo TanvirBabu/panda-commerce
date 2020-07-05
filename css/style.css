@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    pad: 0;
+}
+/* Common Css */
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+p {
+    margin-top: 0;
+}
+.container{
+    margin-bottom: 85px;
+}
+.pink-bg {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+/* Carousel */
+.carousel-item {
+    padding: 20px 40px;
+}
+.price {
+    color: #FF136F;
+}
+.cat-box1 {
+    background-color: blue;
+}
+.cat-box2 {
+    background-color: orchid;
+}
+.cat-box3 {
+    background-color: orange;
+}
+.cat-box1, .cat-box2, .cat-box3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+/* Card */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.card-footer {
+    border: none;
+}
+
+/* Subscribe */
+#subscribe {
+    height: 300px;
+}
+#subscribe h6 {
+    color: gray;
+}
+/* Footer */
+.text-center {
+    margin-bottom: 20px;
+}
+
+.text-center h6 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 550;
+}
